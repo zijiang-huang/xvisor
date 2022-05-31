@@ -9,3 +9,7 @@ script:
     - ./tools/scripts/makeall "arm x86"
 os:
     - linux
+notifications:
+    email:
+      on_success: always
+      on_failure: always
